@@ -1,8 +1,8 @@
 language: ruby
-rbenv:
-  - 2.0.0p594
+rvm:
+  - 2.0.0
 
-script: jekyll build
+script: "jekyll build"
 
 branches:
   only:
