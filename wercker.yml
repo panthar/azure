@@ -31,7 +31,7 @@ build:
         #
 deploy:
     steps:
-        - duleorlovic/ftp-deploy
+        - duleorlovic/ftp-deploy:
             destination: $AZURE_FTP
             username: $AZURE_USER
             password: $AZURE_PASSWORD
