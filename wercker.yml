@@ -32,6 +32,6 @@ build:
 deploy:
     steps:
         - wercker-labs/azure-ftp-deploy:
-            publish-url: ftp://waws-prod-bn1-003.ftp.azurewebsites.windows.net/site/wwwroot
-            username: panthar\$panthar
+            publish-url: $AZURE_FTP
+            username: $AZURE_USER
             password: $AZURE_PASSWORD
