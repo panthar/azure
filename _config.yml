@@ -10,5 +10,4 @@ github_username:  panthar
 
 # Build settings
 markdown: kramdown
-exclude: [vendor
-]
+exclude: [vendor]
